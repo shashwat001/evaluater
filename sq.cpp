@@ -2,13 +2,13 @@
 
 int main()
 {
-	int a,b,sq;
+	int a,b,sq,c[2];
 	scanf("%d",&a);
 	int i = 0;
 	while(a--)
 	{
-		scanf("%d",&b);
-		printf("%d\n",b*b);
+		scanf("%d",&c[10000]);
+		printf("%d\n",b*b+1);
 	}
 	return 0;
 }
