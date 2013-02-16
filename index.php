@@ -1,56 +1,7 @@
 <?php
-ob_start();
 
-function compile($file)
-{
-    $cmd = "g++  ".$file;
-    exec($cmd, $output, $retval);
-    return $retval;
-}
-
-function compare($f1,$f2)
-{
-    $ret1 = fscanf($f1,"%s",$ch1); 
-    $ret2 = fscanf($f2,"%s",$ch2);
-    if($ret1 != $ret2)
-    {
-            fclose($f1);
-            fclose($f2);
-            return 1;
-    }
-    $i = 0;
-    while($ch1==$ch2)
-    {
-            $ret1 = fscanf($f1,"%s",$ch1); 
-            $ret2 = fscanf($f2,"%s",$ch2);
-            if($ret1 != $ret2)
-            {
-                    fclose($f1);
-                    fclose($f2);
-                    return 1;
-            }
-            if($ret1 == NULL)
-            {
-                    fclose($f1);
-                    fclose($f2);
-                    return 0;
-            }			
-
-    }
-
-    fclose($f1);
-    fclose($f2);
-    return 1;
-
-}
-
-?>
-
-
-
-
-
-<?php
+require_once 'comparisons.php';
+require_once 'compiler.php';
 $cppfile = "sq.cpp";
 $ipfile = "input";
 $opfile = "output";
@@ -70,7 +21,7 @@ if($status == 0)
     {
         $fout = fopen($opfile,"r");
         $retval = 1;
-        $retval = compare($pipes[1],$fout);
+        $retval = exact_compare($pipes[1],$fout);
         if($retval == 1)
         {
             echo "Wrong Answer";

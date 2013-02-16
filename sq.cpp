@@ -7,8 +7,8 @@ int main()
 	int i = 0;
 	while(a--)
 	{
-		scanf("%d",&c[10000]);
-		printf("%d\n",b*b+1);
+		scanf("%d",&b);
+		printf("%d\n",b*b);
 	}
 	return 0;
 }
