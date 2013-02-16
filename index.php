@@ -2,7 +2,8 @@
 
 require_once 'comparisons.php';
 require_once 'compiler.php';
-$cppfile = "sq.cpp";
+include 'upload.php';
+$cppfile = "sq1.cpp";
 $ipfile = "input";
 $opfile = "output";
 
