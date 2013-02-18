@@ -1,48 +1,58 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <vector>
-#include <utility>
-#include <queue>
-#include <stack>
-#include <list>
+#include <stdio.h>
+#define MOD 1000000007
 
-using namespace std;
 
-#define INF 2147483647
-#define LLINF 9223372036854775807
-#define make_pair mp
-#define push_back pb
-
-typedef long long int lli;
-typedef unsigned int uint;
-typedef unsigned long long int ulli;
-typedef pair<int,int> pairint;
-
-int i,j;
-
+long long modmulinverse(long long a,long long m)
+{
+    long long x = 0,y = 1,u = 1,v = 0; 
+    long long e = m,f = a;
+    long long c,d,q,r;
+    while(f != 1)
+    {
+        q = e/f;
+        r = e%f;
+        c = x-q*u;
+        d = y-q*v;
+        x = u;
+        y = v;
+        u = c;
+        v = d;
+        e = f;
+        f = r;
+    } 
+    u = (u+m)%m;
+    return u;
+}
 int main()
 {
-	long long int n,m,res = 1,a[32];
-	cin>>n>>m;
-	a[0] = 3;
-	for(i = 1;i < 32;i++)
+	long long a[1001],b[1001],t,n,k,i;
+	a[0] = 1;
+	for(i = 1;i <= 1000;i++)
 	{
-		a[i] = (a[i-1]*a[i-1])%m;
+		a[i] = (a[i-1]<<1)%MOD;
 	}
-	i = 0;
-	while(n>0)
+	b[1] = 1;
+	for(i = 2;i <= 500;i++)
 	{
+		b[i] = (((b[i-1]*2*(2*i-1))%MOD)*modmulinverse(i,MOD))%MOD;
+	}
+	
+	scanf("%lld",&t);
+	while(t--)
+	{
+		scanf("%lld",&n);
+		for(i = 0;i < n;i++)
+		{
+			scanf("%lld",&k);
+		}
 		if(n&1)
-			res = (res*a[i])%m;
-		n = n>>1;
-		i++;
-		
+		{
+			printf("%lld\n",a[n-1]);
+		}
+		else
+		{
+			printf("%lld\n",(a[n-1]-b[n/2]+MOD)%MOD);
+		}
 	}
-	if(res==0)
-		cout<<m-1;
-	else
-	cout<<(res-1)%m;
 	return 0;
 }
