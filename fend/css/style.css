@@ -1,0 +1,75 @@
+#tabs
+{
+	float:left;
+	width:100%;
+	min-height:550px;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+#headerDiv{
+	height:100px;
+	width:100%;
+	background-color:#b0c4de;
+}
+#footerDiv{
+	height:100px;
+	width:100%;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	background-color:#b0c4de;
+	float:left;
+	z-index:10;
+	text-align:center;
+	
+}
+#side{
+	float:right;
+	width:25%;
+	min-height:85%;
+	background-color:#00ff00;
+}
+#list
+{
+	float:left;
+	width:75%;
+	min-height:550px;
+}
+.prob_table
+{
+        width: 100%;
+}
+
+#registerDiv
+{
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 550px;
+}
+#containtRegister
+{
+    min-height: 550px;   
+}
+#regTable
+{
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: auto;
+    padding: 5px;
+    width: 50%;
+}
+td
+{
+    padding: 10px;
+    font: large sans-serif;
+}
+tr
+{
+   
+}
+#inputText
+{
+    height:20px;
+    width: 300px;
+}

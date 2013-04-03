@@ -1,0 +1,47 @@
+[02-Apr-2013 10:33:06] PHP Warning:  mkdir(): File exists in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 6
+[02-Apr-2013 10:47:13] PHP Warning:  mkdir(): File exists in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 6
+[02-Apr-2013 11:11:04] PHP Notice:  Undefined index: probfile in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 11
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseinput1 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 21
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseoutput1 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 25
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseinput2 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 21
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseoutput2 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 25
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseinput3 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 21
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseoutput3 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 25
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseinput4 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 21
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseoutput4 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 25
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseinput5 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 21
+[02-Apr-2013 11:11:05] PHP Notice:  Undefined index: tcaseoutput5 in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 25
+[02-Apr-2013 16:40:02] PHP Warning:  mkdir(): File exists in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 9
+[02-Apr-2013 18:15:13] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:15:13] PHP Warning:  mysql_query(): A link to the server could not be established in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:15:13] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 8
+[02-Apr-2013 18:18:14] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:18:14] PHP Warning:  mysql_query(): A link to the server could not be established in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:18:14] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 8
+[02-Apr-2013 18:18:20] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:18:20] PHP Warning:  mysql_query(): A link to the server could not be established in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:18:20] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 8
+[02-Apr-2013 18:18:21] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:18:21] PHP Warning:  mysql_query(): A link to the server could not be established in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:18:21] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 8
+[02-Apr-2013 18:19:12] PHP Warning:  include(../../db_config.php): failed to open stream: No such file or directory in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 4
+[02-Apr-2013 18:19:12] PHP Warning:  include(): Failed opening '../../db_config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 4
+[02-Apr-2013 18:19:12] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:19:12] PHP Warning:  mysql_query(): A link to the server could not be established in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[02-Apr-2013 18:19:12] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 8
+[02-Apr-2013 18:45:19] PHP Warning:  mkdir(): File exists in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 9
+[02-Apr-2013 18:47:34] PHP Warning:  mkdir(): File exists in /home/shashwat001/public_html/testcode/fend/submit_prob.php on line 9
+[02-Apr-2013 18:51:49] PHP Notice:  Undefined variable: prob_category in /home/shashwat001/public_html/testcode/fend/centre/leftpane.php on line 6
+[03-Apr-2013 23:28:00] PHP Warning:  include(perma/headerSignUp.php): failed to open stream: No such file or directory in /home/shashwat001/public_html/testcode/fend/signup.php on line 29
+[03-Apr-2013 23:28:00] PHP Warning:  include(): Failed opening 'perma/headerSignUp.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/shashwat001/public_html/testcode/fend/signup.php on line 29
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: username in /home/shashwat001/public_html/testcode/fend/register.php on line 3
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: firstname in /home/shashwat001/public_html/testcode/fend/register.php on line 4
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: lastname in /home/shashwat001/public_html/testcode/fend/register.php on line 5
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: emailid in /home/shashwat001/public_html/testcode/fend/register.php on line 6
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: password in /home/shashwat001/public_html/testcode/fend/register.php on line 7
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: country in /home/shashwat001/public_html/testcode/fend/register.php on line 8
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: address in /home/shashwat001/public_html/testcode/fend/register.php on line 9
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: phone in /home/shashwat001/public_html/testcode/fend/register.php on line 10
+[04-Apr-2013 00:46:49] PHP Notice:  Undefined index: institute in /home/shashwat001/public_html/testcode/fend/register.php on line 11
+[04-Apr-2013 00:46:49] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shashwat001/public_html/testcode/fend/register.php on line 14
+[04-Apr-2013 00:46:59] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shashwat001/public_html/testcode/fend/register.php on line 14
