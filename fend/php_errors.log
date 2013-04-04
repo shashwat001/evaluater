@@ -45,3 +45,5 @@
 [04-Apr-2013 00:46:49] PHP Notice:  Undefined index: institute in /home/shashwat001/public_html/testcode/fend/register.php on line 11
 [04-Apr-2013 00:46:49] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shashwat001/public_html/testcode/fend/register.php on line 14
 [04-Apr-2013 00:46:59] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/shashwat001/public_html/testcode/fend/register.php on line 14
+[04-Apr-2013 03:29:17] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shashwat001/public_html/testcode/fend/loginprocess.php on line 2
+[04-Apr-2013 03:31:08] PHP Notice:  Undefined variable: record in /home/shashwat001/public_html/testcode/fend/loginprocess.php on line 29

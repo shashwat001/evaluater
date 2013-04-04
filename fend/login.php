@@ -10,9 +10,9 @@
 	<title>SportCoder</title>
 </head>
 <body>
-<?php include("perma/header.php");?>	
+<?php include("perma/headersignup.php");?>	
 
-<section id="list"><?php include("centre/leftpane.php");?></section>
+<section id="list"><?php include("centre/login_pane.php");?></section>
 <aside id="side"><?php include("sidebar/mainindex.php");?></aside>
 <?php include("perma/footer.php");?>	
 	
