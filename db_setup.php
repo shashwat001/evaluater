@@ -3,7 +3,7 @@
     
 
     
-    /*$query = "DROP TABLE IF EXISTS users";
+    $query = "DROP TABLE IF EXISTS users";
     mysql_query($query) or die(mysql_error());
     
     $query = "CREATE TABLE users (username varchar(20) PRIMARY KEY,
@@ -17,14 +17,14 @@
                                   institute text,
                                   date_joining int,
                                   last_login int,
-                                  submissions int,
-                                  AC int,
-                                  WA int,
-                                  TLE int,
-                                  CE int,
-                                  RE int,
-                                  score int,
-                                  PS int
+                                  submissions int DEFAULT 0,
+                                  AC int DEFAULT 0,
+                                  WA int DEFAULT 0,
+                                  TLE int DEFAULT 0,
+                                  CE int DEFAULT 0,
+                                  RE int DEFAULT 0,
+                                  score int DEFAULT 0,
+                                  PS int DEFAULT 0
                                   )";
                                   
     mysql_query($query) or die(mysql_error());
@@ -52,7 +52,7 @@
                                   time_limit text, 
                                   submissions int,
                                   correct_submissions int,
-                                  test_count int
+                                  test_count int DEFAULT 0
                                   )";
     
     mysql_query($query) or die(mysql_error());
@@ -67,7 +67,7 @@
                                   time_limit text, 
                                   submissions int, 
                                   correct_submissions int,
-                                  test_count int
+                                  test_count int DEFAULT 0
                                   )";
     mysql_query($query) or die(mysql_error());
 
@@ -81,7 +81,7 @@
                                   time_limit text, 
                                   submissions int, 
                                   correct_submissions int,
-                                  test_count int
+                                  test_count int DEFAULT 0
                                   )";
     
     mysql_query($query) or die(mysql_error());
@@ -116,40 +116,21 @@
                                   
     mysql_query($query) or die(mysql_error());
     
-    echo "Database successfully created";*/
+
     
     
-    
-    /*$query = "ALTER TABLE problems_easy ADD COLUMN test_count INT DEFAULT 0";
+    $query = "DROP TABLE IF EXISTS comments";
     mysql_query($query) or die(mysql_error());
     
-    $query = "ALTER TABLE problems_medium ADD COLUMN test_count INT DEFAULT 0";
-    mysql_query($query) or die(mysql_error());
-    
-    $query = "ALTER TABLE problems_hard ADD COLUMN test_count INT DEFAULT 0";
-    mysql_query($query) or die(mysql_error());*/
-    
-    
-    
-    /*$query = "ALTER TABLE users ADD ( 
-                                  PS int DEFAULT 0
+    $query = "CREATE TABLE comments (comment_id int NOT NULL,      
+                                  username varchar(30) NOT NULL,
+                                  code varchar(30) NOT NULL,
+                                  text text NOT NULL,
+                                  time int,
+                                  PRIMARY KEY(comment_id)
                                   )";
+    
     mysql_query($query) or die(mysql_error());
-    echo "Database updated created";*/
-    
-    
-//    $query = "DROP TABLE IF EXISTS comments";
-//    mysql_query($query) or die(mysql_error());
-//    
-//    $query = "CREATE TABLE comments (comment_id int NOT NULL,      
-//                                  username varchar(30) NOT NULL,
-//                                  code varchar(30) NOT NULL,
-//                                  text text NOT NULL,
-//                                  time int,
-//                                  PRIMARY KEY(comment_id)
-//                                  )";
-//    
-//    mysql_query($query) or die(mysql_error());
     
     $query = "DROP TABLE IF EXISTS contests";
     mysql_query($query) or die(mysql_error());
@@ -162,6 +143,8 @@
                                   )";
     
     mysql_query($query) or die(mysql_error());
+    
+    echo "Database successfully created";
     
                                   
 ?>
